@@ -1,0 +1,448 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    font: 400 16px "proxima-nova";
+    color: #666666;
+}
+
+a {
+    color: #d50940;
+}
+p a ,.tableau a {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 25px auto;
+    border-bottom: 1px solid #ccc;
+}
+.extra{
+    margin-bottom: 90px;
+}
+.extra hr{
+    border-bottom: 3px solid #ccc;
+}
+
+.extra .h1{
+    margin: 30px auto 55px;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4 {
+    margin: 10px auto;
+    font-weight: 700;
+    color: #200d0d;
+    display: block;
+}
+
+h1,
+.h1 {
+    font: 700 32px "freight-display-pro";
+    color: #d50940;
+}
+
+h2,
+.h2 {
+    font-size: 21px;
+}
+
+h3,
+.h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+h4,
+.h4 {
+    font-size: 21px;
+}
+
+p {
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+blockquote {
+    margin: 40px auto;
+    margin-left: -24px;
+    padding: 12px 20px;
+    border-left: 5px solid #d50940;
+    font: italic 500 30px "freight-display-pro";
+    line-height: 36px;
+    color: #d50940;
+}
+#map {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+
+.entet p:nth-child(1) {
+    margin: 20px auto;
+    font: 600 21px "proxima-nova";
+    line-height: 32px;
+}
+
+.entet { float: none;}
+
+ol {
+    margin-left: 40px 0 20px 15px;
+    font: 400 14px "proxima-nova";
+    line-height: 24px;
+}
+
+ol li {
+    padding-left: 20px;
+}
+
+ol .underline {
+    display: block;
+    position: relative;
+    margin: 15px -15px;
+    border-top: 1px solid #ccc;
+}
+
+ol .underline:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 0;
+    left: 10%;
+    border-top: 3px solid #fff;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #999999;
+}
+
+.clearfix{
+    clear: both;float: none;
+}
+.black {
+    color: #000 !important;
+}
+
+.red ,
+.red a {
+    color: #d50940 !important;
+}
+
+.content ul {
+    margin: 20px auto;
+    margin-left: -15px;
+    font: 600 16px "proxima-nova";
+    line-height: 32px;
+    list-style-image: url('../images/icons/bullet.png');
+    color: #666666;
+}
+
+.content ul li {
+    padding: 4px 0 4px 15px;
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+}
+
+.sous_titre {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #1f1f2c;
+}
+
+.title {
+    display: inline-block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #52391f;
+}
+
+.title .underline,
+.titre .underline {
+    display: block;
+    position: relative;
+    margin-top: 22px;
+    border-top: 1px solid #d50940;
+}
+
+.title .underline:after,
+.titre .underline:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 0;
+    left: 35%;
+    border-top: 3px solid #eceef2;
+}
+
+.tout a,
+.tout button,
+.tout [type='submit'] {
+    display: block;
+    float: right;
+    position: relative;
+    width: 260px;
+    height: 50px;
+    padding: 0 24px;
+    border: 1px solid #dc0637;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #1d1d2e;
+    background-color: transparent;
+}
+
+.tout {
+    height: 50px;
+    margin: 30px auto;
+}
+
+.telecharger_commande.tout {
+    margin: 0;
+}
+
+.telecharger_metier.tout a {
+    width: 300px;
+}
+
+.telecharger_commande.tout a {
+    width: 100%;
+}
+
+.tout a:hover {
+    color: #d50940;
+}
+
+.tout a .ico_arrow_right,
+.contact .submit .ico_arrow_right {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    width: 18px;
+    height: 9px;
+    margin-top: -4.5px;
+    background-image: url('../images/icons/ico_arrow_right.png');
+    -webkit-transition: right 0.25s;
+    -moz-transition: right 0.25s;
+    -ms-transition: right 0.25s;
+    -o-transition: right 0.25s;
+    transition: right 0.25s;
+}
+
+.tout a .ico_arrow_down {
+    position: absolute;
+    top: 40%;
+    right: 24px;
+    width: 9px;
+    height: 18px;
+    margin-top: -4.5px;
+    background-image: url('../images/icons/ico_arrow_down.png');
+    -webkit-transition: right 0.25s;
+    -moz-transition: right 0.25s;
+    -ms-transition: right 0.25s;
+    -o-transition: right 0.25s;
+    transition: right 0.25s;
+}
+
+.tout a:hover .ico_arrow_right,
+.contact .submit:hover .ico_arrow_right {
+    right: 18px;
+}
+
+.tout a:hover .ico_arrow_down {
+    top: 50%;
+}
+
+.filiale {
+    text-align: right;
+}
+
+[type='text'],
+[type='file'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea {
+    height: 48px;
+    margin: 10px auto 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    font-size: 18px;
+    box-shadow: none;
+}
+
+.section_title {
+    width: 700px;
+    margin: 0 auto 60px;
+    max-width: 100%;
+    text-align: center;
+    font: 700 50px "freight-display-pro";
+    line-height: 52px;
+    color: #1f1f2c;
+}
+
+.pages .section_title {
+    margin: 0 auto 25px;
+}
+
+.padding_30 {
+    clear: both;
+    padding: 30px 0;
+}
+
+.padding_map {
+    padding: 90px 0 40px;
+}
+
+.slider_padding {
+    padding: 20px 0 0;
+}
+
+/*******************************     NAVIGATION   */
+
+.navigation {
+    height: 90px;
+    padding: 30px 0;
+    margin: 70px auto;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font: 700 18px "proxima-nova";
+    line-height: 30px;
+    color: #1f1f2c;
+}
+
+.navigation a {
+    color: #1f1f2c;    
+    display: block;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.navigation a:hover {
+    color: #d50940;
+}
+
+.navigation .previous {
+    float: left;
+}
+
+.navigation .next {
+    float: right;
+}
+
+.navigation .previous a {
+    padding-left: 40px;
+    background: url('../images/icons/ico_arrow_left.png') no-repeat;
+    background-position: 2% 50%;
+}
+
+.navigation .previous a:hover {
+    background-position: 0 50%;
+}
+
+.navigation .next a {
+    padding-right: 40px;
+    background: url('../images/icons/ico_arrow_right.png') no-repeat;
+    background-position: 98% 50%;
+}
+
+.navigation .next a:hover {
+    background-position: 100% 50%;
+}
+
+/* styles de base si JS est activé */
+
+.input-file-container {
+    position: relative;
+    width: 100%;
+    margin: 10px auto 20px;
+}
+
+.input-file-trigger {
+    display: block;
+    height: 48px;
+    padding: 8px 20px;
+    border: 1px solid #cccccc;
+    font-size: 18px;
+    color: #ccc;
+    background: url('../images/icons/download_input.png') no-repeat;
+    background-position: 95% 50%;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.input-file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 14px 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* quelques styles d'interactions */
+
+/*.input-file:hover + .input-file-trigger,
+.input-file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+    border: 1px solid #8a8a8a;
+    outline: none;
+    color: #666;
+    background: #f5f5f2;
+    box-shadow: 0 0 5px #cacaca;
+}*/
+
+/* styles du retour visuel */
+
+.file-return {
+    margin: 0;
+}
+
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+
+.file-return {
+    font-size: .9em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* on complète l'information d'un contenu textuel uniquement lorsque le paragraphe n'est pas vide */
+
+.file-return:not(:empty):before {
+    content: "Télécharger votre CV";
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+

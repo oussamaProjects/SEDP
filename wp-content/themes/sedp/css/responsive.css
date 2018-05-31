@@ -1,0 +1,460 @@
+@media screen and (max-width: 1240px)  {
+	.tout a, .tout button, .tout [type='submit']{font-size: 15px;}
+	header.pages .titre_pages {font-size: 40px; line-height: 40px;}
+	.blocfiltre .filtre{display: block;}
+
+	#side-menu{
+		display: none;
+		max-width: 100%;
+		-webkit-transform: translate3d(410px,0,0) scale3d(0,1,1);
+		-ms-transform: translate(410px,0) scale(1,1);
+		-moz-transform: translate3d(410px,0,0) scale3d(0,1,1);
+		transform: translate3d(410px,0,0) scale3d(0,1,1);
+		-webkit-transition: transform 50ms ease;
+		-ms-transition: transform 50ms ease;
+		-moz-transition: transform 50ms ease;
+		transition: transform 50ms ease; 
+	}
+
+	.opn {
+		display: block !important;
+		-webkit-transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+		-ms-transform: translate(61px,0) scale(1,1) !important;
+		-moz-transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+		transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+	}
+
+	
+	section.metiers .metier_block {padding: 0;}
+
+	a .hover {
+		background: none;
+	}
+	section.actualites a:hover .img_zoom {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+	.slider_padding {
+		padding-left: 0.9375rem;
+		padding-right: 0.9375rem;
+	}
+	.slider_competence .expertiser{left: -0.625rem; top: 0.625rem}
+	.slider_competence .img { height: 500px;}
+	.slider_competence.owl-theme .owl-controls .owl-buttons {top: 425px;}
+	
+	/*******************************     FOOTER   							*/
+	footer .cross_content .cross_content_box .description{font-size: 38px;}
+
+	/*******************************     PUBLICATION NEWSLETTER  		*/
+	footer .publication_newsletter {height: auto;}
+	footer .newsletter_bloc .description, footer .chiffres_cles .description { margin:0;}
+	footer .newsletter_bloc form input { margin-top: 30px;}
+
+	/*******************************     PARTENAIRE   */
+	section.projets .slider_partenaire .single_projet { height: 740px;} 
+	section.projets .slider_partenaire .single_projet .sous { height: 480px;padding: 20px;}
+
+
+	/*******************************     SASPUBLICATIONS   */
+	.sascompetence .competence .title {    font-size: 30px ;}
+	.sascompetence .competence .desc {   font-size: 16px;}
+	.sascompetence.sasactualites .img,.sascompetence.sasactualites .pub{ height: auto; }
+	/*.sascompetence .img{ height: auto; }*/
+	/*.sascompetence.publications .competence .desc {	height: 160px ;}*/
+	section.metiers .metier_block .metier .img {
+		height: auto;
+	}
+	.Publication .img, .Publication .pub {
+		height: 225px;
+	}
+	.slider_points_cles .titre {    font-size: 28px;}
+	.chiffre {width: 100%;}
+
+	.addthis_toolbox a.at300b, .addthis_toolbox a.at300m { width: 30px !important; }
+	/*******************************     SASACTUALITES   */
+	section.actualites .bloc .img {
+		height: auto;
+	}
+	section.actualites .bloc .img img {
+		height: auto;
+	}
+
+	/*----------------------------projets-------------------------------*/
+	section.projets .single_projet {		height: 545px;		}
+	section.projets .single_projet>a {		height: 315px; 		}
+	section.projets .single_projet .sous {	height: 230px;		}
+
+
+	section.projets #slider_projets .single_projet {		height: 565px;		}
+	section.projets #slider_projets .single_projet>a {		height: 335px; 		}
+	section.projets #slider_projets .single_projet .sous {	height: 230px;		}
+
+
+	.pages.realisations section.projets .single_projet {		height: 541px;		}
+	.pages.realisations section.projets .single_projet>a {		height: 311px; 		}
+	.pages.realisations section.projets .single_projet .sous {	height: 230px;		}
+	/*----------------------------projets-------------------------------*/
+
+
+	.taxoComp.sascompetence .img, .taxoComp.sascompetence .pub,
+	.recrute.sascompetence .img, .recrute.sascompetence .pub {
+	    height: 226px;
+	}
+
+}
+
+@media screen and (max-width: 780px)  {
+	.sascompetence .competence .title {    font-size: 26px ;}
+	.sascompetence .competence .desc {   font-size: 16px;}
+	.chiffre {width: 263px;}
+	section.metiers .metier_block .metier .img {  height: auto;}
+
+
+}
+
+
+@media screen and (min-width:441px) and (max-width: 780px)   {
+
+	/*----------------------------projets-------------------------------*/
+	section.projets .single_projet {		height: 503px;		}
+	section.projets .single_projet>a {		height: 223px; 		}
+	section.projets .single_projet .sous {	height: 280px;		}
+
+	section.projets #slider_projets .single_projet {		height: 607px;		}
+	section.projets #slider_projets .single_projet>a {		height: 377px; 		}
+	section.projets #slider_projets .single_projet .sous {	height: 230px;		}
+
+
+	.pages.realisations section.projets .single_projet {		height: 584px;		}
+	.pages.realisations section.projets .single_projet>a {		height: 354px; 		}
+	.pages.realisations section.projets .single_projet .sous {	height: 230px;		}
+	/*----------------------------projets-------------------------------*/
+
+	.taxoComp.sascompetence .img, .taxoComp.sascompetence .pub ,
+	.recrute.sascompetence .img, .recrute.sascompetence .pub{
+	    height: 290px;
+	}
+}
+
+@media screen and (max-width: 660px)  {
+	
+	.tout a, .tout button, .tout [type='submit']{font-size: 18px;}
+	header.pages { height: 250px;}
+	section.projets {padding: 20px 0;}
+	.pages section.projets {padding: 0;}
+	.section_title{margin: 10px auto;  font-size: 38px;  line-height: 38px;}
+	.tout a{float: none !important;   width: 100% !important; }
+	.section_title img {   margin: 0px auto 20px !important; }
+	blockquote{border: none;padding: 15px 0; margin: 0;}
+	iframe {   min-height: 260px;}
+	.chevron{ display: inline-block;}
+	.chevron.up{
+		background-image: url('../images/icons/chevronup.png');
+	}
+	.blocfiltre .filtre{display: none;}
+
+
+	.padding_map{	padding: 40px 0 0;}
+
+	section.metiers {  padding: 0px;}
+	.navigation a,
+	.navigation .next,
+	.navigation .previous {
+		width: 110px;
+		display: block;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	/*******************************    HEADER  */
+	header .top .logo {
+		top: 0.625rem;
+		left: 0.625rem;
+		width: 150px;
+	}
+	header .menu_icon {top: 0.625rem; right: 0.625rem;}
+	header .search_container {top: 2px;right: 56px;}
+	header .search_container.hover {width: 80%;}
+
+	header.home .container_en_tete .en_tete{top: 40%;}
+	header.home .container_en_tete {
+		width: 96%;
+		height: 700px;
+		top: 0;
+		position: absolute;
+		left: 2%;
+		margin: 0 auto;
+		right: 2%;
+	}
+	header.home .reference {width: 96%; bottom: 125px;left: 2%;padding: 6px}
+	header.home .reference .nom{font-size: 20px;}
+
+	header.pages .titre_pages {font: 900 34px "freight-display-pro";line-height: 34px;}
+
+
+	#side-menu{
+		display: none;
+		max-width: 100%;
+		-webkit-transform: translate3d(410px,0,0) scale3d(0,1,1);
+		-ms-transform: translate(410px,0) scale(1,1);
+		-moz-transform: translate3d(410px,0,0) scale3d(0,1,1);
+		transform: translate3d(410px,0,0) scale3d(0,1,1);
+		-webkit-transition: transform 50ms ease;
+		-ms-transition: transform 50ms ease;
+		-moz-transition: transform 50ms ease;
+		transition: transform 50ms ease; 
+	}
+	#side-menu ul li a {
+		color: #fff;
+		display: block;
+		padding: 15px  0 15px 80px;
+	}
+	.opn {
+		display: block !important;
+		-webkit-transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+		-ms-transform: translate(61px,0) scale(1,1) !important;
+		-moz-transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+		transform: translate3d(61px,0,0) scale3d(1,1,1) !important;
+	}
+
+	/*******************************    FIL_ARIANE  */
+	.fil_ariane{display: none;}
+	.obligatoires{text-align: center;}
+
+	/*******************************    ACTUALITES  */
+	section.actualites .bloc .titre{font-size: 24px;   line-height: 24px;}
+	section.actualites .bloc .description{font-size: 14px;}
+	.content ul { margin-left: 13px;}
+	.content ul li {  line-height: 26px;}
+	.slider_citation{padding-top: 20px;	margin-top: 40px;}
+	.img,.pub {height: 130px;}
+	.Publication .img { height: auto;}
+	.Publication .pub { height: 110px;}
+
+	/*******************************    SLIDER_PROJETS */
+	#page_slider_projets .single_projet{width: 100% ;margin: 0%;}
+	#page_slider_projets .owl-controls {    position: absolute;    bottom: 245px;    right: -1px;}
+	.slider_projets .owl-controls {    position: absolute;    bottom: 230px;    right: -1px;}
+	#page_slider_projets.slider_projets .owl-controls {   bottom: 230px;}
+	.slider_padding_right{padding-right: 0;}
+	.slider_padding_left{padding-left: 0;}
+	.slider_padding{padding: 0;}
+
+	.slider_small_padding_right{padding-right: 0.625rem;}
+	.slider_small_padding_left{padding-left: 0.625rem;}
+	.slider_small_padding{padding: 0.625rem;}
+
+	/******************************* 	SLIDER_PAGE */
+	.slider_page {margin: 20px auto;}
+
+	.slider_page .img, .slider_page .pub {height: auto;}
+	.slider_page .legend{
+		bottom: 0px;
+		position: relative;
+		height: 89px;
+		padding: 20px;
+		margin: 0;
+		background-color: rgba(31,31,44,1);
+	}
+
+	.slider_page .legend .titre {font-size: 20px;}
+	.slider_page .legend .desc { font-size: 12px;}
+	.slider_page .owl-controls{bottom: 90px;right: 0;height: 62px;}
+	.owl-controls{height: 62px;	}
+	.owl-theme .owl-controls .owl-buttons div{height: 62px;width: 62px;}
+
+	/*******************************	FICHEMETIER  SLIDER_POINTS_CLES */
+	.slider_points_cles{margin-bottom: 60px;}
+	.slider_points_cles .owl-controls { bottom: -64px; right: -1px;}
+
+	/*******************************     SLIDER_METIER */
+	section.metiers .metier_block { padding: 0;}
+	section.metiers .metier_block .metier {
+		height: auto;
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	section.metiers .metier_block .metier .img { width: 100%;}
+	.slider_metier .owl-controls {
+		position: absolute;
+		top: 228px;
+		right: 0px;
+	}
+
+	/*******************************     SASCOMPETENCE   */
+
+	.sas .prix { float: none; line-height: 30px; display: block; }
+	.sascompetence { padding: 0; }
+	.sascompetence .img{ margin: 10px 0 }
+	.sascompetence .competence .title{ display: block;margin: 0; padding-bottom: 10px;	}  
+	.sascompetence .competence .desc{ padding: 10px 0; }
+	.sascompetence .img,.sascompetence .pub,
+	.taxoComp.sascompetence .img, .taxoComp.sascompetence .pub ,
+	.recrute.sascompetence .img, .recrute.sascompetence .pub{ height: auto; }
+	.sascompetence .pub_bottom{ position: relative;	}
+	.sascompetence .competence hr {margin: 30px auto 20px;}
+	#sascompetence_slider_projets .single_projet .tout{display: block;float: none; }
+
+	/*******************************    SASCOMPETENCE_SLIDER_PROJETS */
+	#sascompetence_slider_projets .single_projet{width: 100%;}
+	#sascompetence_slider_projets .single_projet > a { height: 280px;}
+	#sascompetence_slider_projets .single_projet .sous {height: 330px;padding: 50px 20px;}
+	#sascompetence_slider_projets .owl-controls {bottom: 350px;}
+
+	/*******************************     SASRECRUTEMENT   */
+
+	.sascompetence .savoir_plus.tout {
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.postulerCandidature{
+		height: auto;
+		font-size: 28px;
+		padding: 50px 30px;	
+	}
+	.postulerCandidature .text,
+	.postulerCandidature .tout {float: none;}
+	.postulerCandidature .text{text-align: center;line-height: 20px;font-size: 22px;}
+	.postulerCandidature .tout{background-color: transparent;}
+	.postulerCandidature .tout a{color: #fff;border: 1px solid #fff;}
+	.postulerCandidature .tout .ico_arrow_right {	background-image: url('../images/icons/ico_arrow_right_white.png');}
+	.tableau {  padding-top: 0px;}
+
+	/*******************************     404   */
+	.introuvable .desc{ margin: 50px 0px 0;}
+
+	/*******************************     ARBO   */
+	.arbo .list{width: 100%;	}
+
+	/*******************************     PARTENAIRE   */
+	section.projets .slider_partenaire .single_projet {
+		width: 100%;
+		margin: 15px 0;    
+		height: 740px;
+	} 
+
+	section.projets .slider_partenaire .single_projet .sous {
+		padding: 20px;
+		height: 480px;
+	}
+	/*******************************     PUBLICATION NEWSLETTER  		*/
+	footer .publication_newsletter {height: auto;}
+	footer .publication, 
+	footer .newsletter_bloc,
+	footer .chiffres_cles{float: none;padding: 50px 0 ;height: auto;	width: 100%;}
+	footer .newsletter_bloc .description, footer .chiffres_cles .description { margin:0;}
+	footer .newsletter_bloc form input { margin-top: 30px;}
+
+	/*******************************     FOOTER  */
+
+
+	footer .cross_content{height: auto;background-attachment: initial !important;}
+	footer .cross_content .cross_content_box{
+		position: relative;
+		margin:0;
+		top: 60px;    
+		padding: 20px;
+		height: auto;
+	}
+	footer .cross_content .cross_content_box .description{font-size: 30px;line-height: 34px;}
+	footer .cross_content .cross_content_box .tout {position: relative;bottom: 0; margin-top: 15px;}
+	footer .publication_newsletter {height: auto;}
+	footer .publication, footer .newsletter {
+		float: none;
+		width: 100%;
+		padding: 50px 0px;
+		height: auto;
+	}
+	footer .publication .title {display: block;}
+
+	footer .publication .bloc {
+		width: 66%;
+		height: 220px;
+		float: right;
+		bottom: 0;
+		margin: 100px 0 0 0;
+	}
+	footer .publication .bloc img {
+		position: absolute;
+		width: 100%;
+		height: 220px;
+		top: -90px;
+		left: -50%;
+	}
+	footer .chiffres_cles {
+		background:url('../images/chiffres_cles_mobile.jpg') no-repeat 30% 100%;
+	}
+
+	footer .newsletter .description{	margin-top: 10px;}
+
+	footer .bottom{	padding: 10px 0;border: none;}
+	footer .bottom ul li {padding: 0;		}
+	footer .bottom .filiale img{margin-bottom: 10px}
+	footer .bottom .filiale{text-align: center;padding: 40px 0;}
+	footer .bottom .filiale div {    font-size: 10px;}
+
+	/*******************************	SLIDER_COMPETENCE  	*/
+	section.competences{height: 540px;padding: 10px 0;}
+	.slider_competence .expertiser .desc{display: none;	}
+	.slider_competence .expertiser .tout {    width: 75%;    left: initial;}
+	.slider_competence .owl-wrapper-outer,
+	.slider_competence .img {
+		overflow: initial !important;
+		left: 0px;
+		height: 210px;
+	}
+	.slider_competence .expertiser{
+		top: 187px;
+		right: 0;
+		left: auto !important;
+		width: 96%;
+		height: 320px;
+		opacity: 1 !important;
+	}
+
+	.slider_competence.owl-theme .owl-controls .owl-buttons {top:initial;bottom: 140px;}
+	.slider_competence.owl-theme .owl-controls .owl-pagination{display: none !important;}
+	.slider_competence .expertiser .description {
+		color: #fff;
+		line-height: 34px;
+		margin-bottom: 30px;
+		font: 700 24px "freight-display-pro";
+	}
+	section.slider.projets .tout{    display: none;}
+
+	.resultats_recherches {	padding: 0;}
+	.recherches .search_container{width: 100%; margin: 20px auto;}
+	.chiffre {width: 263px;}
+}
+
+@media screen and (min-width: 661px)  {
+	.blocfiltre .filtre {
+		display: block !important;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width:440px) {
+
+	/*----------------------------projets-------------------------------*/
+	section.projets .single_projet {		height: 625px;		}
+	section.projets .single_projet>a {		height: 395px; 		}
+	section.projets .single_projet .sous {	height: 230px;		}
+
+	section.projets #slider_projets .single_projet {		height: 581px;		}
+	section.projets #slider_projets .single_projet>a {		height: 351px; 		}
+	section.projets #slider_projets .single_projet .sous {	height: 230px;		}
+
+
+
+	.pages.realisations section.projets .single_projet {		height: 624px;		}
+	.pages.realisations section.projets .single_projet>a {		height: 394px; 		}
+	.pages.realisations section.projets .single_projet .sous {	height: 230px;		}
+	/*----------------------------projets-------------------------------*/
+
+}
